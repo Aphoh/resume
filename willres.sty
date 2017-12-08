@@ -1,0 +1,42 @@
+\ProvidesPackage{willres}
+
+\newenvironment{tightcenter}{%
+  \setlength\topsep{0pt}
+  \setlength\parskip{0pt}
+  %\setlength\bottomsep{0pt}
+  \begin{center}
+}{%
+  \end{center}
+}
+
+
+\newcommand{\titleheader}[4]{
+	\begin{tightcenter}
+	\Large #1
+	\end{tightcenter}
+	\vspace{-.1em}
+	\begin{tabu}{X[l]X[c]X[r]}
+	#2 & #3  & #4
+ 	\end{tabu} 
+}
+
+\newcommand{\employer}[4]{
+	\hspace{-1em}
+	\begin{tabular}[t]{@{}l}
+		#1 \\ \hspace{.3em} #3
+	\end{tabular}
+	\hfill
+	\begin{tabular}[t]{r@{}}
+		 #2 \\ #4
+	\end{tabular}
+	\vspace{-.6em}
+}
+
+\newcommand{\project}[2]{
+	#1
+	\vspace{.25em}
+	\begin{addmargin}[3em]{0em}
+	#2
+	\end{addmargin}
+	\vspace{.25em}
+}
