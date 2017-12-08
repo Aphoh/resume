@@ -1,4 +1,4 @@
 .DS_Store
-res7.aux
-res7.log
-res7.synctex.gz
+*.log
+*.aux
+*.synctex.gz
