@@ -34,6 +34,18 @@
  	\end{tabu} 
 }
 
+\newcommand{\education}[4]{
+	\vspace{-0.5em}
+	\begin{tabular}{@{}l}
+	#1 \\ #2 \\	
+	\end{tabular}
+	\hfill
+	\begin{tabular}{c@{}}
+	\itshape With a focus on \\ #3 \\ #4
+	\end{tabular}
+	\vspace{-0.5em}
+}
+
 % An employer info section with the arguments:
 %  Company, Location, Position, Timeframe
 \newcommand{\employer}[4]{
@@ -51,6 +63,7 @@
 % A list of accomplishments in which each accomplishment is an \item
 \newenvironment{accomplishments}{%
 	\begin{itemize}
+	\setlength\itemsep{0.4em}
 }{%
 	\end{itemize}
 }
