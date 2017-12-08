@@ -1,18 +1,32 @@
 \ProvidesPackage{willres}
+\usepackage{tabu}
+\usepackage{scrextend}
+\usepackage{fontspec}
+\usepackage[compact]{titlesec}
+\usepackage[none]{hyphenat} % No hyphenation
 
+% Use Freesans font
+\setmainfont{FreeSans} 
+
+% Make section headers less pronounced and non-bold
+\titleformat{\section}
+	{\normalfont\scshape}{\thesection}{}{}
+\titlespacing{\section}{0pt}{4pt}{4pt}
+
+% A centered element with little skipping
 \newenvironment{tightcenter}{%
   \setlength\topsep{0pt}
   \setlength\parskip{0pt}
-  %\setlength\bottomsep{0pt}
   \begin{center}
 }{%
   \end{center}
 }
 
-
+% A title header with the arguments: 
+% Name, Phone Number, Email, and LinkedIn
 \newcommand{\titleheader}[4]{
 	\begin{tightcenter}
-	\Large #1
+	\bfseries \Large #1
 	\end{tightcenter}
 	\vspace{-.1em}
 	\begin{tabu}{X[l]X[c]X[r]}
@@ -20,18 +34,29 @@
  	\end{tabu} 
 }
 
+% An employer info section with the arguments:
+%  Company, Location, Position, Timeframe
 \newcommand{\employer}[4]{
 	\hspace{-1em}
 	\begin{tabular}[t]{@{}l}
-		#1 \\ \hspace{.3em} #3
+		#1 \\ \itshape\hspace{.3em} #3
 	\end{tabular}
 	\hfill
 	\begin{tabular}[t]{r@{}}
-		 #2 \\ #4
+		 #2 \\ \itshape #4
 	\end{tabular}
 	\vspace{-.6em}
 }
 
+% A list of accomplishments in which each accomplishment is an \item
+\newenvironment{accomplishments}{%
+	\begin{itemize}
+}{%
+	\end{itemize}
+}
+
+% A project entry with the following arguments:
+% Project Title, Description
 \newcommand{\project}[2]{
 	#1
 	\vspace{.25em}
