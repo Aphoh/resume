@@ -1,3 +1,4 @@
+%! TEX program = xelatex
 \ProvidesPackage{willres}
 \usepackage{tabu}
 \usepackage{scrextend}
@@ -7,7 +8,7 @@
 \usepackage[none]{hyphenat} % No hyphenation
 
 % Use Freesans font
-\setmainfont{FreeSans} 
+% \setmainfont{FreeSans} 
 
 % Make section headers less pronounced and non-bold
 \titleformat{\section}
@@ -35,13 +36,13 @@
  	\end{tabu} 
 }
 
-\newcommand{\education}[4]{
+\newcommand{\education}[5]{
 	\begin{tabular}{@{}l}
-	#1 \\ #2 
+	#1 \\ #2 \\ #3 \\
 	\end{tabular}
 	\hfill
 	\begin{tabular}{c@{}}
-	\itshape With a focus on \\ #3 \\ #4
+	\itshape With a focus on \\ #4 \\ #5
 	\end{tabular}
 }
 
@@ -69,11 +70,13 @@
 
 % A project entry with the following arguments:
 % Project Title, Description
-\newcommand{\project}[2]{
-	#1
-	\vspace{.25em}
-	\begin{addmargin}[3em]{0em}
-	#2
+\newcommand{\project}[3]{
+	\hspace{-1em}
+	#1 \hfill \textit{#2}
+	\newline
+	\vspace{-1em}
+	\begin{addmargin}[2em]{0em}
+		#3
 	\end{addmargin}
-	\vspace{.25em}
+	\vspace{0.3em}
 }
