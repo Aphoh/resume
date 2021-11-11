@@ -4,11 +4,12 @@
 
 \usepackage{willres}
 \usepackage{tabu}
+\usepackage{bibentry}
 
 \begin{document}
 
 \titleheader{William Arnold}{(510){\textendash}529{\textendash}8523}{willarnold@berkeley.edu}
-				 {linkedin.com/in/{\textasciitilde}arnold}      
+				 {github.com/aphoh}      
 
 \section*{EDUCATION}
 
@@ -19,71 +20,72 @@
 
 \section*{EXPERIENCE}
 
-        \employer{Eluvio}{Berkeley, CA}{Cryptosystems Intern}{June 2020 --- August 2020}
+        \employer{Eluvio}{Berkeley, CA}{Cryptosystems Engineer}{June 2020 --- August 2020, October 2021 --- \textit{Current}}
+          \begin{accomplishments}
+            \item Built a high security key-management system using AMD SEV.
+            \item Designed and implemented a prototype consumer{\textendash}scale, identity{\textendash}based asset access scheme to allow content secured by an ethereum{\textendash}backed system to be securely and efficiently managed. 
+          \end{accomplishments}
 
-                  \begin{accomplishments}
-                \item Built a key{\textendash}splitting and distributed trust scheme to secure high value assets in a federated system.
-                \item Designed and implemented a prototype consumer{\textendash}scale, identity{\textendash}based asset access scheme to allow content secured by an ethereum{\textendash}backed system to be securely and efficiently managed. 
-                  \end{accomplishments}
+        \employer{Hyperion Maritime}{Nantucket, MA}{Race Crew \& Deckhand --- Santana}{June 2021 --- August 2021}
+            \begin{accomplishments}
+              \item Raced and maintained Santana, a classic 55' yawl built in 1935 by Sparkman \& Stevens.
+            \end{accomplishments}
+
+        \employer{UC Berkeley}{Berkeley, CA}
+            {Undergraduate Student Instructor \& RL Researcher}{August 2018 --- May 2021}
+              \begin{accomplishments}
+                \item Taught undergraduates taking discreet math and probability theory (CS70) in person and virtually, including topics such as Galois Field Theory, Countabililty, Berlekamp-Welsh, and Probability Theory. Held office hours, proctored, and graded exams.
+            \end{accomplishments}
 
         \employer{Procore Technologies}{Santa Barbara, CA}
                 {Machine Learning Intern}
                 {June 2019 --- August 2019}
                     \begin{accomplishments}
-                        \item Combined supervised image encoding with a Gaussian-based clustering algorithm in order to find latent classes in a dataset of construction images. 
+                        \item Combined supervised image encoding with a Gaussian clustering algorithm in order to find latent classes in a dataset of construction images. 
                           This successfully produced a low-noise dataset 8x larger than any existing dataset and greatly increased model performance.
                     \end{accomplishments}
 
-        \employer{UC Berkeley}{Berkeley, CA}
-            {Undergraduate Student Instructor \& RL Researcher}{2018 --- current}
-                  \begin{accomplishments}
-                \item Taught undergraduates taking discreet math and probability theory (CS70) in person and virtually, including topics such as Galois Field Theory, Countabililty, Berlekamp-Welsh, and Probability Theory. Held office hours, proctored, and graded exams.
-                \item Developed an RL Agent controller for Demand Response in energy grids, working in Prof. Costas Spanos' group. Developed novel techniques to improve the agent's fairness and speed of learning using uniform quadric sampling and surprise minimization.
-                  Publications pending experiment at SinBerBEST in Singapore, beginning in March 2021.
-                \end{accomplishments}
-
-
-				\employer{Activate Inc., at Google}{San Francisco/Berkeley, CA}
+				\employer{Activate Inc., at Google}{San Francisco, CA}
 								{Technical Lead}
 								{February 2016 --- August 2018}                  		
 	                   \begin{accomplishments} 
 	                    		\item Organized and implemented a feature{\textendash}diverse, spatial, unsupervised machine learning algorithm to identify the most attractive food concepts around 50+ locations in the Bay Area for a Fortune 500 company.
-                          \item Built a deep learning{\textendash}based model to predict how individuals move and eat in Google Cafes to reduce food waste and ensure more effective resource utilization in future Google buildings.
+                          \item Built a deep learning model to predict how individuals move and eat in Google Cafes to reduce food waste and ensure more effective resource utilization in future Google buildings.
 	                    \end{accomplishments}
 	                    		
 	   		
 	   		\employer{Skydeck Berkeley}{Berkeley, CA}
 	   			{Data Analyst and Ambassador}
 	   			{July 2016 --- July 2018}
-			  		\begin{accomplishments}
-	                   		\item Developed a data analysis tool to measure Skydeck event attendance and effectiveness among startups.
-	                  \end{accomplishments}
+        \vspace{0.5em}
                   	 
-                  	 
-                \employer{Gradescope}{Berkeley, CA}
-                {Android Developer}{September 2014 --- July 2016}
-                 			\begin{accomplishments}					        
-                   			\item Designed and built a comprehensive beta Android app for students to enhance mobile the student homework submission experience.
-                  		 \end{accomplishments}
-                  		 
+        \employer{Gradescope}{Berkeley, CA}
+          {Android Developer}{September 2014 --- July 2016}
+        \vspace{0.5em}
                   
+
+\section*{PUBLICATIONS}
+\nobibliography{ref}
+\bibliographystyle{unsrt}
+\begin{enumerate}
+    \item \bibentry{pub1}
+    \item \bibentry{pub2}
+\end{enumerate}
+
 \section*{ACTIVITIES}
 
-\project{\textbf{Cal Sailing Team} --- Varsity Skipper and Fleetmaster}{August 2018 --- current}
+\project{\textbf{Cal Sailing Team} --- Varsity Skipper and Fleetmaster}{August 2018 --- May 2021}
         {Sailed for UC Berkeley and maintained FJs at Treasure Island Sailing Center, competing in Pacific Coast Conference Regattas. 
           Bowman, Skipper in Big Sail 2018,2019 against Stanford in J/22s at St Francis Yacht Club. 
           Held racing tactics and sail trim lessons for team members.}
 
-
-
-
-\section*{SKILLS AND RELEVANT COURSES}
-				\setlength{\columnsep}{.5pt}
-				\begin{tabu}{X[2c]X[2.5c]X[2c]X[2c]}
-					Quantum Computing      & High Performance Computing & Efficient Algorithms & Discrete Math \\
-					Data Analysis 			   & Distributed Computing      & General Relativity   & Honors Linear Algebra \\
-          Machine Learning		   & Reinforcement Learning     & Probability Theory   & Honors Analysis \\
-				\end{tabu}
+%\section*{SKILLS AND RELEVANT COURSES}
+%				\setlength{\columnsep}{.5pt}
+%				\begin{tabu}{X[2c]X[2.5c]X[2c]X[2c]}
+%					Quantum Computing      & High Performance Computing & Efficient Algorithms & Discrete Math \\
+%					Data Analysis 			   & Distributed Computing      & General Relativity   & Honors Linear Algebra \\
+%          Machine Learning		   & Reinforcement Learning     & Probability Theory   & Honors Analysis \\
+%				\end{tabu}
  
 \end{document}
 
