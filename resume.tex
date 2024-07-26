@@ -5,36 +5,43 @@
 \usepackage{willres}
 \usepackage{tabu}
 \usepackage{bibentry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
 
 \begin{document}
 
-\titleheader{William Arnold}{(510){\textendash}529{\textendash}8523}{willarnold@berkeley.edu}
+\titleheader{William Arnold}{linkedin.com/in/\textasciitilde arnold}{willarnold@berkeley.edu}
 				 {github.com/aphoh}      
 
 \section*{EDUCATION}
 
-\education{University of California, Berkeley, College of Engineering Class of 2021}
+\education{Korea Advanced Institute of Science and Technology, Class of 2025}
+    {MS {\textendash} Kim Jaechul Graduate School of AI}
+{MLILAB {\textendash} Professor Eunho Yang}{LLM Inference}{\; LLM Pretraining \;}
+
+\vspace{0.4em}
+
+\education{University of California, Berkeley, College of Engineering, Class of 2021}
     {BS {\textendash} Electrical Engineering and Computer Science Major, Math Minor}
 {GPA: 4.0, Highest Honors, University Medal nominee}{Machine Learning}{Theoretical Physics}
 
 
 \section*{EXPERIENCE}
 
-        \employer{Polygon Labs}{}{Senior Engineer, Applied Research}{November 2022 --- \textit{Current}}
+        \employer{Polygon Labs}{}{Senior Engineer, Applied Research}{November 2022 --- \textit{August 2023}}
             \begin{accomplishments}
-              \item Developed a novel polynomial commitment multiproof scheme, increasing the throughput of data availibility systems by 16x.
+              \item Developed an \href{https://aphoh.github.io/poly-multiproof/}{\color{teal} efficient multiproof data commitment scheme}, increasing the throughput of DA systems by 16x.
             \end{accomplishments}
 
         \employer{Eluvio}{Berkeley, CA}{Software Engineer}{June 2020 --- August 2020, October 2021 --- November 2022}
           \begin{accomplishments}
             \item Built a high security distributed key-management system in Rust.
-            \item Developed and deployed a non-custodial e2e payments protocol for marketplace platforms.
           \end{accomplishments}
 
         \employer{UC Berkeley}{Berkeley, CA}
             {Undergraduate Student Instructor \& RL Researcher}{August 2018 --- May 2021}
               \begin{accomplishments}
-                \item Conducted research in Prof. Spanos lab on Reinforcement Learning in Energy Systems leading to a 3 week energy usage experiment in Singapore.
+                \item Conducted research in Prof. Costas Spanos lab on Reinforcement Learning in Energy Systems leading to a 3 week energy usage experiment in Singapore.
                 \item Taught undergraduates discreet math and probability theory (CS70) in person and virtually. Held office hours, proctored, and graded exams.
             \end{accomplishments}
 
@@ -65,20 +72,21 @@
                   
 
 \section*{PUBLICATIONS}
+\vspace{-3.4em}
 \nobibliography{ref}
 \bibliographystyle{unsrt}
 \begin{enumerate}
+  \item \bibentry{pub0} (1st author)
   \item \bibentry{pub1} (1st author)
   \item \bibentry{pub2} (3rd author)
 \end{enumerate}
 
-\vspace{-0.6em}
 \section*{SKILLS AND COURSES}
+
 				\setlength{\columnsep}{.5pt}
-				\begin{tabu}{X[2c]X[2.5c]X[2c]X[2c]}
-					Software Engineering & High Performance Computing & Rust                 & Cryptography \\
-					Data Analysis 			 & Quantum Field Theory & General Relativity   & Distributed Systems \\
-         Machine Learning		 & Reinforcement Learning     & Probability Theory   & Trustless Systems \\
+				\begin{tabu}{X[2c]X[2c]X[2c]}
+					High Performance Computing & Rust                 & Cryptography \\
+					Distributed Systems  & Machine Learning	 & Probability Theory  \\
 				\end{tabu}
  
 
@@ -89,6 +97,7 @@
         Bowman, Skipper in Big Sail 2018, 2019 against Stanford at St Francis Yacht Club.}
 
 \end{document}
+
 
 
 
