@@ -49,15 +49,16 @@
   stroke: 0pt,
   gutter: 0pt,
   par(hanging-indent: 1em)[
-    *Korea Advanced Institute of Science and Technology (KAIST), South Korea* \
+    *Korea Advanced Institute of Science and Technology (KAIST)* \
     MS, Kim Jaechul School of AI, MLILAB under Professor Eunho Yang \
-    Research on LLM Inference Efficiency & Training \
+    Research on LLM Inference & Training Efficiency  \
   ],
   par(hanging-indent: -2cm)[
     #h(1fr) _September 2023 -- Current_ \
   ],
 )
 
+#v(-1em)
 
 #table(
   columns: (
@@ -78,6 +79,7 @@
   ],
 )
 
+#v(-1em)
 
 == Experience 
 #divline()
@@ -85,6 +87,7 @@
 *Google* #h(1fr) _April 2024 --- Current_
 #workdesc()[
   Student Researcher, Gemini Applied Research #h(1fr) San Francisco, CA
+  - Developed a method for statistically efficient measurement of math/coding LLM benchmarks, pending preprint
 ]
 
 *Polygon Labs* #h(1fr) _November 2022 --- August 2023_
@@ -133,6 +136,7 @@
 == Publications
 #divline()
 
+- Factored Agents: Decoupling In-Context Learning and Memorization for Robust Tool Use. In review at _COLM 2025_.
 - Back-to-Basics Revisited: Benchmarking an Expanded Set of RLHF Algorithms. In _NeurIPS SFLLM 2024_.
 - Continuous Convolutional Neural Networks for Disruption Prediction in Nuclear Fusion Plasmas. In _NeurIPS CCAI 2023_ (1st author).
 - Adapting Surprise Minimizing Reinforcement Learning Techniques for Transactive Control. In _Proceedings of the Twelfth ACM International Conference on Future Energy Systems 2021_ (1st author).
