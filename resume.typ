@@ -35,8 +35,9 @@
   = William Francis Arnold
 
   willarnold\@berkeley.edu |
+  #link("https://swaglu.com")[swaglu.com] |
   #link("https://github.com/Aphoh")[github.com/Aphoh] |
-  #link("https://swaglu.com")[swaglu.com]
+  #link("https://www.linkedin.com/in/~arnold/")[linkedin.com/in/~arnold] 
 ]
 
 == Education
