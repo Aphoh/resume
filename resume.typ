@@ -85,7 +85,7 @@
 == Experience 
 #divline()
 
-*Google* #h(1fr) _April 2024 --- Current_
+*Google* #h(1fr) _April 2025 --- Current_
 #workdesc()[
   Student Researcher, Gemini Applied Research #h(1fr) San Francisco, CA
   - Developed a method for statistically efficient measurement of math/coding LLM benchmarks, pending preprint
