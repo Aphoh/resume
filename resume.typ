@@ -85,7 +85,7 @@
 == Projects
 #divline()
 #par(hanging-indent: 1em)[
-  *Sequence Level Experts for On-Device Infilling - Masters Thesis* \
+  *Sequence Level Experts for On-Device Infilling - Master's Thesis* \
   Developed and trained hardware-aware MoE modifications for on-device inference by routing sequences rather than tokens. Allows expert offloading to flash, reducing memory usage by 6x while maintaining dense model inference throughput and TTFT latency. Demonstrated model performance through robust training experiments.
 ]
 #par(hanging-indent: 1em)[
@@ -98,12 +98,12 @@
 
 *Google* --- Student Researcher, Gemini Applied Research#h(1fr) _April 2025 --- Current_
 #workdesc()[
-  - Developed a method for statistically efficient measurement of math/coding LLM benchmarks, pending preprint
+  - Developed a method for statistically efficient measurement of math/coding LLM benchmarks, pending preprint.
 ]
 
 *Polygon Labs* --- Senior Engineer, Applied Research #h(1fr) _November 2022 --- August 2023_
 #workdesc()[
-  - Entirely rebuilt existing #link("https://aphoh.github.io/poly-multiproof/")[commitment schemes], increasing system throughput 16x via algorithmic and system-level optimizations.
+  - Redesigned #link("https://aphoh.github.io/poly-multiproof/")[cryptographic commitment schemes], achieving 16x throughput via algorithmic and system-level optimizations.
 ]
 
 *Eluvio* --- Software Engineer #h(1fr) _Summer 2020, October 2021 -- November 2022_ \
@@ -114,7 +114,7 @@
 *UC Berkeley* --- Machine Learning Researcher & Instructor #h(1fr) _August 2018 --- May 2021_ \
 #workdesc()[
   - Conducted research in Prof. Spanos lab on Reinforcement Learning for intelligent control of energy systems in large buildings, leading to a 3 week energy usage experiment at the National University of Singapore.
-  - Taught discreet math and probability theory (CS70), receiving 4.97/5.0 on student evaluations (above the department mean of 4.4/5).
+  - Taught discrete math and probability theory (CS70), receiving 4.97/5.0 on student evaluations (above the department mean of 4.4/5).
   - Held over 200 office hours, proctored, wrote questions for, and graded 12 exams.
 ]
 
