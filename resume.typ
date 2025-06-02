@@ -86,7 +86,7 @@
 #divline()
 #par(hanging-indent: 1em)[
   *Sequence Level Experts for On-Device Infilling - Master's Thesis* \
-  Developed and trained hardware-aware MoE modifications for on-device inference by routing sequences rather than tokens. Allows expert offloading to flash, reducing memory usage by 6x while maintaining dense model inference throughput and TTFT latency. Demonstrated model performance through robust training experiments.
+  Developed and trained hardware-aware MoE modifications for on-device inference by routing sequences rather than tokens. Allows expert offloading to flash, reducing memory usage by 6x while maintaining dense model inference throughput and TTFT latency. Demonstrated model performance through robust training experiments on TPUs using JAX and a custom data pipeline.
 ]
 #par(hanging-indent: 1em)[
   *WRIST - Torch Auto-Parallelism Search through Simulation* \
