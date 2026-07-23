@@ -35,6 +35,7 @@
   = William Francis Arnold
 
   willarnold\@berkeley.edu |
+  #link("https://roofline.cc")[roofline.cc] |
   #link("https://swaglu.com")[swaglu.com] |
   #link("https://github.com/Aphoh")[github.com/Aphoh] |
   #link("https://www.linkedin.com/in/~arnold/")[linkedin.com/in/\~arnold] 
@@ -51,11 +52,11 @@
   gutter: 0pt,
   par(hanging-indent: 1em)[
     *Korea Advanced Institute of Science and Technology (KAIST)* \
-    MS, Kim Jaechul School of AI, MLILAB under Professor Eunho Yang \
+    MS, School of AI, MLILAB under Professor Eunho Yang \
     Research on Transformer Inference & Training Efficiency 
   ],
   par(hanging-indent: -2cm)[
-    #h(1fr) _September 2023 -- Current_ \
+    #h(1fr) _September 2023 -- August 2025_ \
   ],
 )
 
@@ -90,37 +91,37 @@
 ]
 #par(hanging-indent: 1em)[
   *WRIST - Torch Auto-Parallelism Search through Simulation* \
-  Used `torch.fx.Graph` traces, network topology analysis, and accelerator performance models to efficiently search millions of parallelism configurations for optimal hardware utilization. Achieved 0.96 spearman correlation predicting 20B transformer training performance on 4x4 A100 clusters.
+  Used `torch.fx.Graph` traces, network topology analysis, and accelerator performance models to efficiently search millions of parallelism configurations for optimal hardware utilization. Achieved 0.96 spearman correlation predicting 20B transformer training.
 ]
 
 == Experience 
 #divline()
-
-*Google* --- Student Researcher, Gemini Applied Research#h(1fr) _April 2025 --- Current_
+*Nvidia* --- Senior Deep Learning Algorithms Engineer#h(1fr) _August 2025 --- Current_
 #workdesc()[
-  - Developed a method for statistically efficient measurement of math/coding LLM benchmarks, pending preprint.
+  - Developed novel inference strategies influencing next-gen chip memory and design 
+  - Built multi-region RL functionality in Dynamo for Cognition's RL systems used to train SWE-1.7
+  - Secured \$80M+ in customer GPU contracts by building inference recipes beating competition by 60%
 ]
 
-*Polygon Labs* --- Senior Engineer, Applied Research #h(1fr) _November 2022 --- August 2023_
+*Google* --- Student Researcher, Gemini Applied Research#h(1fr) _April 2025 --- July 2025_
 #workdesc()[
-  - Redesigned #link("https://aphoh.github.io/poly-multiproof/")[cryptographic commitment schemes], achieving 16x throughput via algorithmic and system-level optimizations.
+  - Developed methods for efficient sampling of math/coding LLM benchmarks 
 ]
 
 *Eluvio* --- Software Engineer #h(1fr) _Summer 2020, October 2021 -- November 2022_ \
 #workdesc()[
-  - Built a distributed key management system in Intel SGX/AMD MET securing \$100M+ worth of Fortune 500 company media assets.
+  - Built a distributed key management system in Intel SGX/AMD MET securing \$100M+ worth of Fortune 500 media assets.
 ]
 
 *UC Berkeley* --- Machine Learning Researcher & Instructor #h(1fr) _August 2018 --- May 2021_ \
 #workdesc()[
   - Conducted research in Prof. Spanos lab on Reinforcement Learning for intelligent control of energy systems in large buildings, leading to a 3 week energy usage experiment at the National University of Singapore.
-  - Taught discrete math and probability theory (CS70), receiving 4.97/5.0 on student evaluations (above the department mean of 4.4/5).
-  - Held over 200 office hours, proctored, wrote questions for, and graded 12 exams.
+  - Taught discrete math and probability theory (CS70), receiving 4.97/5.0 on student evaluations (department mean=4.4/5).
 ]
 
 *Procore Technologies* --- Machine Learning Intern #h(1fr) _June 2019 --- August 2019_ \
 #workdesc()[
-  - Built a image tagging interface using image embedding models and Gaussian clustering accelerate manual tagging of domain-specific latent classes in a construction image dataset, resulting in a 8x larger dataset, increasing accuracy by 40\% on edge classes.
+  - Developed systems for and built domain-specific image datasets, yielding 40\%+ accuracy improvements on edge classes.
 ]
 
 *Activate Inc., at Google* --- Technical Lead #h(1fr) _February 2016 --- August 2018_ \
@@ -134,7 +135,7 @@
 == Publications
 #divline()
 
-- Factored Agents: Decoupling In-Context Learning and Memorization for Robust Tool Use. In review at _COLM 2025_.
+- Factored Agents: Decoupling In-Context Learning and Memorization for Robust Tool Use. #link("https://arxiv.org/abs/2503.22931")[Arxiv].
 - Chatbot Arena Estimate: towards a generalized performance benchmark for LLM capabilities. In _NAACL 2025_.
 - DisruptionBench: Two Advancements in Machine Learning Driven Disruption Prediction. In _Journal of Fusion Energy 2025_.
 - Back-to-Basics Revisited: Benchmarking an Expanded Set of RLHF Algorithms. In _NeurIPS SFLLM 2024_.
